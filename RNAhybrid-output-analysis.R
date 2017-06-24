@@ -1,3 +1,6 @@
+##Since RNAhybrid output is listed row by row and not easy to rank by the MFE
+##The code below is designed to solve this problem
+
 ##read from output file process by RNAhybrid
 raw<-scan("your path of the output file",
  sep="\n",what=character(),blank.lines.skip = FALSE)
